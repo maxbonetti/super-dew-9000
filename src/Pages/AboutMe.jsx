@@ -15,7 +15,7 @@ const AboutMe = () => {
             <br  />
             <p>
                 In my free time I enjoy working out, fishing, video games, walks with my <a href="https://project-two-app-happy-tails.onrender.com/animals/7" 
-                alt="A picture of my dog: Chloe the Pomiski, from my Applcation Happy Tails">dog,</a> hanging out with my friends and family.
+                alt="A picture of my dog: Chloe the Pomiski, from my Applcation Happy Tails">dog</a>, hanging out with my friends and family.
                
             </p>
 
