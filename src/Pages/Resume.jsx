@@ -15,6 +15,7 @@ const Resume = () => {
                 <li className="list-group-item">Mongoose</li>
                 <li className="list-group-item">HTML</li>
                 <li className="list-group-item">CSS</li>
+                <li className="list-group-item">Python</li>
             </ul>
         </section>
     );

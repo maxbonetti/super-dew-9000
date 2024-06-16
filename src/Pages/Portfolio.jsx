@@ -6,13 +6,13 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 const projects = [
     {
         title: 'React, Tech Quiz',
-        imgSrc: './Assests/Images/tech-quiz-project.onrender.com_.png',
+        imgSrc: '/Images/tech-quiz-project.onrender.com_.png',
         deployedLink: 'https://tech-quiz-project.onrender.com',
         repoLink: 'https://github.com/nvanschaack/tech-quiz-project'
     },
     {
       title: 'Happy Tails',
-      imgSrc: './Assests/Images/project-two-app-happy-tails.onrender.com_.png',
+      imgSrc: '/Images/project-two-app-happy-tails.onrender.com_.png',
       deployedLink: 'https://project-two-app-happy-tails.onrender.com',
       repoLink: 'https://github.com/maxbonetti/project-two-app'
     },
