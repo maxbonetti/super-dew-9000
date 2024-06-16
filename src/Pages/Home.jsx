@@ -4,8 +4,8 @@
 const Home = () => {
 
     return (
-        <main>
-            <div className="flex-row justify-center">
+        <main className="main col-12 col-md-8 mb-3">
+            <div className="flex-row justify-center col-12 col-md-8 mb-3">
                 <h2>Welcome to my Portfolio page!</h2>
                 <br />
                 <br />

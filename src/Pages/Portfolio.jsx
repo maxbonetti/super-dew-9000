@@ -4,13 +4,13 @@ import Project from '../Components/Project';
 const projects = [
     {
         title: 'React, Tech Quiz',
-        // imgSrc: 'path_to_project1_image.jpg',
+        imgSrc: './Assests/Images/tech-quiz-project.onrender.com_.png',
         deployedLink: 'https://tech-quiz-project.onrender.com',
         repoLink: 'https://github.com/nvanschaack/tech-quiz-project'
     },
     {
       title: 'Happy Tails',
-      // imgSrc: 'path_to_project1_image.jpg',
+      imgSrc: './Assests/Images/project-two-app-happy-tails.onrender.com_.png',
       deployedLink: 'https://project-two-app-happy-tails.onrender.com',
       repoLink: 'https://github.com/maxbonetti/project-two-app'
     },

@@ -4,7 +4,7 @@ const AboutMe = () => {
     return (
         <section>
             <h2>About Me</h2>
-            <img src="../Assests/Images/Picture1.jpg" alt="Professional Photo of Myself" />
+            <img src="./Assests/Images/Picture1.jpg" alt="Professional Photo of Myself" />
             <p>
                 Highly motivated individual experienced with over three years of commercial and residential customer service and sales
                 experience. Seeking to contribute my talent and diversify my experience in the IT industry. Dedicated coach-able team player
