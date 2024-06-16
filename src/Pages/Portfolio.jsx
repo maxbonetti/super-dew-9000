@@ -5,7 +5,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 const projects = [
     {
-        title: 'React, Tech Quiz',
+        title: 'Tech Quiz',
         imgSrc: '/Images/tech-quiz-project.onrender.com_.png',
         deployedLink: 'https://tech-quiz-project.onrender.com',
         repoLink: 'https://github.com/nvanschaack/tech-quiz-project'
