@@ -3,6 +3,9 @@ body {
   background-color: #121212;
   color: #ffffff;
 }
+* {
+  font-family: 'Fira Mono', 'Courier New', Courier, monospace;
+}
 
 a {
   color: #0d6efd;
