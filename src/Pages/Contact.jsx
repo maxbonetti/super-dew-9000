@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import 'bootstrap/dist/css/bootstrap.min.css'; 
 
 const Contact = () => {
     const [formData, setFormData] = useState({ name: '', email: '', message: '' });
@@ -28,42 +29,45 @@ const Contact = () => {
     };
 
     return (
-        <section>
+        <section className="container my-5">
             <h2>Contact</h2>
             <form onSubmit={handleSubmit}>
-                <div>
-                    <label htmlFor="name">Name:</label>
+                <div className="mb-3">
+                    <label htmlFor="name" className="form-label">Name:</label>
                     <input
                         type="text"
                         id="name"
                         name="name"
+                        className="form-control"
                         value={formData.name}
                         onChange={handleChange}
                     />
-                    {errors.name && <span>{errors.name}</span>}
+                    {errors.name && <div className="text-danger">{errors.name}</div>}
                 </div>
-                <div>
-                    <label htmlFor="email">Email:</label>
+                <div className="mb-3">
+                    <label htmlFor="email" className="form-label">Email:</label>
                     <input
                         type="email"
                         id="email"
                         name="email"
+                        className="form-control"
                         value={formData.email}
                         onChange={handleChange}
                     />
-                    {errors.email && <span>{errors.email}</span>}
+                    {errors.email && <div className="text-danger">{errors.email}</div>}
                 </div>
-                <div>
-                    <label htmlFor="message">Message:</label>
+                <div className="mb-3">
+                    <label htmlFor="message" className="form-label">Message:</label>
                     <textarea
                         id="message"
                         name="message"
+                        className="form-control"
                         value={formData.message}
                         onChange={handleChange}
                     />
-                    {errors.message && <span>{errors.message}</span>}
+                    {errors.message && <div className="text-danger">{errors.message}</div>}
                 </div>
-                <button type="submit">Submit</button>
+                <button type="submit" className="btn btn-primary">Submit</button>
             </form>
         </section>
     );

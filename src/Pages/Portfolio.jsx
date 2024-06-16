@@ -1,5 +1,7 @@
 import React from 'react';
 import Project from '../Components/Project';
+import 'bootstrap/dist/css/bootstrap.min.css';
+
 
 const projects = [
     {
@@ -18,11 +20,16 @@ const projects = [
 
 const Portfolio = () => {
     return (
-        <section>
+        <section className="container my-5">
             <h2>Portfolio</h2>
+            <div className="row">
             {projects.map(project => (
+                <div key={project.title} className="col-md-4">
+
                 <Project key={project.title} {...project} />
+                </div>
             ))}
+            </div>
         </section>
     );
 };
